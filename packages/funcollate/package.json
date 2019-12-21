@@ -1,0 +1,37 @@
+{
+  "name": "funcollate",
+  "description": "A diff & patch tool for immutable state tree",
+  "version": "0.1.0",
+  "author": "KoharaKazuya <reflect.results@gmail.com>",
+  "bugs": "https://github.com/KoharaKazuya/worker-first-architecture-tools/issues",
+  "dependencies": {
+    "immer": "^5.0.1",
+    "rfc6902": "^3.0.4"
+  },
+  "files": [
+    "dist/"
+  ],
+  "homepage": "https://github.com/KoharaKazuya/worker-first-architecture-tools#readme",
+  "keywords": [
+    "State Sync",
+    "Worker First Architecture"
+  ],
+  "license": "MIT",
+  "main": "dist/funcollate.js",
+  "module": "dist/funcollate.module.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KoharaKazuya/worker-first-architecture-tools.git",
+    "directory": "packages/funcollate"
+  },
+  "scripts": {
+    "build": "microbundle --name Funcollate",
+    "dev": "concurrently \"npm:dev:build\" \"npm:dev:test\"",
+    "dev:build": "microbundle watch --name Funcollate",
+    "dev:test": "mocha --watch ./tests/",
+    "test": "npm run build && mocha ./tests/"
+  },
+  "source": "src/funcollate.ts",
+  "types": "dist/funcollate.d.ts",
+  "umd:main": "dist/funcollate.umd.js"
+}

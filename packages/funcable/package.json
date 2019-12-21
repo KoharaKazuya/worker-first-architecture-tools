@@ -1,0 +1,35 @@
+{
+  "name": "funcable",
+  "description": "A library provides async function invocation based on Web Messaging",
+  "version": "0.1.0",
+  "author": "KoharaKazuya <reflect.results@gmail.com>",
+  "bugs": "https://github.com/KoharaKazuya/worker-first-architecture-tools/issues",
+  "files": [
+    "dist/"
+  ],
+  "homepage": "https://github.com/KoharaKazuya/worker-first-architecture-tools#readme",
+  "keywords": [
+    "Proxy",
+    "Web Messaging",
+    "Web Workers",
+    "Worker First Architecture"
+  ],
+  "license": "MIT",
+  "main": "dist/funcable.js",
+  "module": "dist/funcable.mjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KoharaKazuya/worker-first-architecture-tools.git",
+    "directory": "packages/funcable"
+  },
+  "scripts": {
+    "build": "microbundle --name Funcable",
+    "dev": "concurrently \"npm:dev:build\" \"npm:dev:test\"",
+    "dev:build": "microbundle watch --name Funcable",
+    "dev:test": "karma start --browsers Chrome",
+    "test": "npm run build && karma start --single-run"
+  },
+  "source": "src/funcable.ts",
+  "types": "dist/funcable.d.ts",
+  "umd:main": "dist/funcable.umd.js"
+}

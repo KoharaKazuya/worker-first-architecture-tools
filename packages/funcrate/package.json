@@ -1,0 +1,33 @@
+{
+  "name": "funcrate",
+  "description": "A library provides container for resolving async functions later",
+  "version": "0.1.0",
+  "author": "KoharaKazuya <reflect.results@gmail.com>",
+  "bugs": "https://github.com/KoharaKazuya/worker-first-architecture-tools/issues",
+  "files": [
+    "dist/"
+  ],
+  "homepage": "https://github.com/KoharaKazuya/worker-first-architecture-tools#readme",
+  "keywords": [
+    "Proxy",
+    "Worker First Architecture"
+  ],
+  "license": "MIT",
+  "main": "dist/funcrate.js",
+  "module": "dist/funcrate.mjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KoharaKazuya/worker-first-architecture-tools.git",
+    "directory": "packages/funcrate"
+  },
+  "scripts": {
+    "build": "microbundle --name Funcrate",
+    "dev": "concurrently \"npm:dev:build\" \"npm:dev:test\"",
+    "dev:build": "microbundle watch --name Funcrate",
+    "dev:test": "karma start --browsers Chrome",
+    "test": "npm run build && karma start --single-run"
+  },
+  "source": "src/funcrate.ts",
+  "types": "dist/funcrate.d.ts",
+  "umd:main": "dist/funcrate.umd.js"
+}
