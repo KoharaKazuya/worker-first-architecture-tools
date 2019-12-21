@@ -44,8 +44,8 @@ Gets proxy object that can be considered as value exposed beyond `endpoint`.
 - [**Comlink**](https://github.com/GoogleChromeLabs/comlink) - Comlink makes WebWorkers enjoyable
 
 [version-widget]: https://img.shields.io/npm/v/funcable
-[build-widget]: https://img.shields.io/github/workflow/status/KoharaKazuya/worker-first-architecture-tools/build
+[build-widget]: https://img.shields.io/github/workflow/status/KoharaKazuya/worker-first-architecture-tools/Build
 [bundle-size-widget]: https://img.shields.io/bundlephobia/minzip/funcable?label=minified%20size
 [npm]: https://www.npmjs.com/package/funcable
-[build]: https://github.com/KoharaKazuya/worker-first-architecture-tools/actions?query=workflow%3Abuild
+[build]: https://github.com/KoharaKazuya/worker-first-architecture-tools/actions?query=workflow%3ABuild
 [bundlephobia]: https://bundlephobia.com/result?p=funcable

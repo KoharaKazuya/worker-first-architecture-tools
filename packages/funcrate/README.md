@@ -45,8 +45,8 @@ Gets proxy value that can be considered as registered value.
 Registers entity in crate. Entity must be an object that has only functions return any type Promise.
 
 [version-widget]: https://img.shields.io/npm/v/funcrate
-[build-widget]: https://img.shields.io/github/workflow/status/KoharaKazuya/worker-first-architecture-tools/build
+[build-widget]: https://img.shields.io/github/workflow/status/KoharaKazuya/worker-first-architecture-tools/Build
 [bundle-size-widget]: https://img.shields.io/bundlephobia/minzip/funcrate?label=minified%20size
 [npm]: https://www.npmjs.com/package/funcrate
-[build]: https://github.com/KoharaKazuya/worker-first-architecture-tools/actions?query=workflow%3Abuild
+[build]: https://github.com/KoharaKazuya/worker-first-architecture-tools/actions?query=workflow%3ABuild
 [bundlephobia]: https://bundlephobia.com/result?p=funcrate

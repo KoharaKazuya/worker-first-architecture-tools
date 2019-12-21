@@ -63,8 +63,8 @@ Mutates nothing of `prev`.
 - [**redux-in-worker**](https://github.com/dai-shi/redux-in-worker) - Entire Redux in Web Worker
 
 [version-widget]: https://img.shields.io/npm/v/funcollate
-[build-widget]: https://img.shields.io/github/workflow/status/KoharaKazuya/worker-first-architecture-tools/build
+[build-widget]: https://img.shields.io/github/workflow/status/KoharaKazuya/worker-first-architecture-tools/Build
 [bundle-size-widget]: https://img.shields.io/bundlephobia/minzip/funcollate?label=minified%20size
 [npm]: https://www.npmjs.com/package/funcollate
-[build]: https://github.com/KoharaKazuya/worker-first-architecture-tools/actions?query=workflow%3Abuild
+[build]: https://github.com/KoharaKazuya/worker-first-architecture-tools/actions?query=workflow%3ABuild
 [bundlephobia]: https://bundlephobia.com/result?p=funcollate
